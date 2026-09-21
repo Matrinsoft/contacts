@@ -1,0 +1,1187 @@
+# Uyghur translation for gnome-contacts.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-contacts\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-contacts/issues\n"
+"POT-Creation-Date: 2026-01-13 17:54+0000\n"
+"PO-Revision-Date: 2026-01-26 10:06-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/org.gnome.Contacts.desktop.in.in:2
+#: data/org.gnome.Contacts.metainfo.xml.in.in:6
+#: data/ui/contacts-main-window.blp:135 src/contacts-app.vala:249
+#: src/contacts-main-window.vala:183 src/contacts-main-window.vala:206
+msgid "Contacts"
+msgstr "ئالاقەداش"
+
+#: data/org.gnome.Contacts.desktop.in.in:3
+#: data/org.gnome.Contacts.metainfo.xml.in.in:7
+msgid "Manage your contacts"
+msgstr "ئالاقەداشلىرىڭىزنى باشقۇرىدۇ"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Contacts.desktop.in.in:5
+msgid "friends;address book;"
+msgstr "دوست;ئادرېس دەپتىرى;friends;address book;"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:9
+msgid ""
+"Contacts keeps and organize your contacts information. You can create, edit, "
+"delete and link together pieces of information about your contacts. Contacts "
+"aggregates the details from all your sources providing a centralized place "
+"for managing your contacts."
+msgstr ""
+"ئالاقەداش ئالاقەداشلىرىڭىزنىڭ ئۇچۇرلىرىنى ساقلاپ ۋە باشقۇرىدۇ. سىز ئالاقەداش "
+"قۇرۇپ، تەھرىرلەپ، ئۆچۈرۈپ شۇنداقلا ئالاقەداشلىرىڭىز ھەققىدىكى ئۇچۇرلارنى "
+"توپلىيالايسىز. ئالاقەداش ھەر قايسى تەرەپلەردىكى ئالاقەداشلارنىڭ ئۇچۇرلىرىنى "
+"جۇغلاپ، مەركەزلەشتۈرۈپ باشقۇرىدۇ."
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:15
+msgid ""
+"Contacts will also integrate with online address books and automatically "
+"link contacts from different online sources."
+msgstr ""
+"ئالاقەداش توردىكى ئادرېس دەپتىرىنىمۇ بىرلەشتۈرۈپ توردىكى ھەر خىل ھېساباتتىكى "
+"ئالاقەداشلارنى ئۆزلۈكىدىن باغلايدۇ."
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:22
+msgid "Contacts with no contacts"
+msgstr "ئالاقىسىز ئالاقەداش"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:26
+msgid "Contacts filled with contacts"
+msgstr "ئالاقىدار ئالاقەداش"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:30
+msgid "Contacts in selection mode"
+msgstr "تاللاش ھالىتىدىكى ئالاقەداش"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:34
+msgid "Contacts setup view"
+msgstr "ئالاقەداش تەڭشەك كۆرۈنۈشى"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:38
+msgid "Contacts edit view"
+msgstr "ئالاقەداش تەھرىر كۆرۈنۈشى"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Contacts.metainfo.xml.in.in:1212 src/contacts-app.vala:141
+msgid "The GNOME Project"
+msgstr "GNOME قۇرۇلۇشى"
+
+#: data/ui/contacts-avatar-selector.blp:8
+msgid "Select a new avatar"
+msgstr "يېڭى سىما تاللىنىدۇ"
+
+#: data/ui/contacts-avatar-selector.blp:18
+#: data/ui/contacts-birthday-editor.blp:17 data/ui/contacts-crop-dialog.blp:19
+#: data/ui/contacts-import-dialog.blp:18 data/ui/contacts-main-window.blp:166
+#: data/ui/contacts-main-window.blp:278 src/contacts-app.vala:233
+#: src/contacts-main-window.vala:455 src/contacts-main-window.vala:558
+msgid "_Cancel"
+msgstr "ۋاز كەچ(_C)"
+
+#: data/ui/contacts-avatar-selector.blp:27 data/ui/contacts-crop-dialog.blp:28
+#: data/ui/contacts-main-window.blp:308 data/ui/contacts-setup-window.blp:27
+#: src/contacts-main-window.vala:215
+msgid "_Done"
+msgstr "تامام(_D)"
+
+#: data/ui/contacts-avatar-selector.blp:72
+msgid "_Take a Picture…"
+msgstr "سۈرەتكە تارت(_T)…"
+
+#: data/ui/contacts-avatar-selector.blp:80
+msgid "_Select a File…"
+msgstr "ھۆججەت تاللىنىدۇ(_S)…"
+
+#: data/ui/contacts-birthday-editor.blp:6
+msgid "Set Birthday"
+msgstr "تۇغۇلغان كۈن تەڭشىكى"
+
+#: data/ui/contacts-birthday-editor.blp:26
+msgid "_Set"
+msgstr "تەڭشەك(_S)"
+
+#: data/ui/contacts-birthday-editor.blp:40
+msgid "Day"
+msgstr "كۈن"
+
+#: data/ui/contacts-birthday-editor.blp:52
+msgid "Month"
+msgstr "ئاي"
+
+#: data/ui/contacts-birthday-editor.blp:57
+msgid "Year"
+msgstr "يىل"
+
+#: data/ui/contacts-birthday-editor.blp:71
+msgid "Remove Birthday"
+msgstr "تۇغۇلغان كۈنىنى چىقىرىۋەت"
+
+#. clearing right_header
+#: data/ui/contacts-contact-pane.blp:15 data/ui/contacts-main-window.blp:268
+#: src/contacts-main-window.vala:355 src/contacts-main-window.vala:386
+#: src/contacts-main-window.vala:493
+msgid "Select a Contact"
+msgstr "ئالاقەداش تاللىنىدۇ"
+
+#: data/ui/contacts-crop-dialog.blp:8
+msgid "Take a Picture"
+msgstr "سۈرەتكە تارت"
+
+#: data/ui/contacts-editable-avatar.blp:19
+msgid "Change Avatar"
+msgstr "سىما ئۆزگەرت"
+
+#: data/ui/contacts-editable-avatar.blp:39
+msgid "Remove Avatar"
+msgstr "سىمانى چىقىرىۋەت"
+
+#: data/ui/contacts-import-dialog.blp:8
+msgid "Import Contacts"
+msgstr "ئالاقەداش ئەكىر"
+
+#: data/ui/contacts-import-dialog.blp:25
+msgid "_Import"
+msgstr "ئەكىر(_I)"
+
+#: data/ui/contacts-link-suggestion-grid.blp:52
+msgid "Link Contacts"
+msgstr "ئالاقەداش ئۇلاش"
+
+#: data/ui/contacts-main-window.blp:7
+msgid "List Contacts By:"
+msgstr "ئالاقەداش تىزىلىش تەرتىپى:"
+
+#: data/ui/contacts-main-window.blp:10
+msgid "_First Name"
+msgstr "ئاتى(_L)"
+
+#: data/ui/contacts-main-window.blp:16
+msgid "_Surname"
+msgstr "تەگئات(_S)"
+
+#: data/ui/contacts-main-window.blp:24
+msgid "_Import From File…"
+msgstr "ھۆججەتتىن ئەكىر(_I)…"
+
+#: data/ui/contacts-main-window.blp:29
+msgid "_Export All Contacts…"
+msgstr "ھەممە ئالاقەداشنى چىقار(_E)…"
+
+#: data/ui/contacts-main-window.blp:36
+msgid "_Preferences"
+msgstr "مايىللىق(_P)"
+
+#: data/ui/contacts-main-window.blp:41
+msgid "_Keyboard Shortcuts"
+msgstr "ھەرپتاختا تېزلەتمىسى(_K)"
+
+#: data/ui/contacts-main-window.blp:46
+msgid "_Help"
+msgstr "ياردەم(_H)"
+
+#: data/ui/contacts-main-window.blp:51
+msgid "_About Contacts"
+msgstr "ئالاقەداش ھەققىدە(_A)"
+
+#: data/ui/contacts-main-window.blp:60
+msgid "Mark as Favorite"
+msgstr "يىغقۇچتا بەلگىسى سال"
+
+#: data/ui/contacts-main-window.blp:66
+msgid "Unmark as Favorite"
+msgstr "يىغقۇچتا ئەمەس بەلگىسى سال"
+
+#: data/ui/contacts-main-window.blp:72
+msgid "Share as QR Code"
+msgstr "QR كودى سۈپىتىدە ھەمبەھىرلە"
+
+#: data/ui/contacts-main-window.blp:77
+msgid "Export"
+msgstr "چىقار"
+
+#: data/ui/contacts-main-window.blp:84
+msgid "Delete Contact"
+msgstr "ئالاقەداش ئۆچۈر"
+
+#: data/ui/contacts-main-window.blp:143
+msgid "Add New Contact"
+msgstr "يېڭى ئالاقەداش قوش"
+
+#: data/ui/contacts-main-window.blp:152
+msgid "Main Menu"
+msgstr "ئاساسىي تىزىملىك"
+
+#: data/ui/contacts-main-window.blp:159
+msgid "Select Contacts"
+msgstr "ئالاقەداش تاللىنىدۇ"
+
+#: data/ui/contacts-main-window.blp:168
+msgid "Cancel Selection"
+msgstr "تاللاشتىن ۋاز كەچ"
+
+#: data/ui/contacts-main-window.blp:181
+msgid "Search contacts"
+msgstr "ئالاقەداش ئىزدە"
+
+#. Translators: Export refers to the verb
+#: data/ui/contacts-main-window.blp:226 src/contacts-main-window.vala:620
+msgid "_Export"
+msgstr "چىقار(_E)"
+
+#: data/ui/contacts-main-window.blp:228
+msgid "Export Selected Contacts"
+msgstr "تاللانغان ئالاقەداشنى چىقار"
+
+#. Translators: Link refers to the verb, from linking contacts together
+#: data/ui/contacts-main-window.blp:237
+msgid "_Link"
+msgstr "ئۇلانما(_L)"
+
+#: data/ui/contacts-main-window.blp:239
+msgid "Link Selected Contacts Together"
+msgstr "تاللانغان ئالاقەداشلارنى ئۆزئارا باغلايدۇ"
+
+#: data/ui/contacts-main-window.blp:252
+msgid "_Delete"
+msgstr "ئۆچۈر(_D)"
+
+#: data/ui/contacts-main-window.blp:293
+msgid "Edit Contact"
+msgstr "ئالاقەداش تەھرىر"
+
+#: data/ui/contacts-main-window.blp:299
+msgid "Contact Menu"
+msgstr "ئالاقەداش تىزىملىك"
+
+#: data/ui/contacts-preferences-window.blp:7
+msgid "Address Books"
+msgstr "ئادرېس دەپتىرى"
+
+#: data/ui/contacts-qr-code-dialog.blp:8
+msgid "Share Contact"
+msgstr "ئالاقەداش ھەمبەھىر"
+
+#: data/ui/contacts-qr-code-dialog.blp:30
+msgid "QR Code"
+msgstr "QR كودى"
+
+#: data/ui/contacts-qr-code-dialog.blp:39
+msgid "Scan to Save"
+msgstr "تاراپ ساقلا"
+
+#: data/ui/contacts-setup-window.blp:9
+msgid "Contacts Setup"
+msgstr "ئالاقەداش تەڭشىكى"
+
+#: data/ui/contacts-setup-window.blp:17
+msgid "_Quit"
+msgstr "چېكىن(_Q)"
+
+#: data/ui/contacts-setup-window.blp:19
+msgid "Cancel Setup And Quit"
+msgstr "تەڭشەشتىن ۋاز كېچىپ ۋە چېكىن"
+
+#. Translators: "Complete" is a verb here: a user finishes the setup by clicking this button
+#: data/ui/contacts-setup-window.blp:29
+msgid "Complete setup"
+msgstr "تەڭشەك تامام"
+
+#: data/ui/contacts-setup-window.blp:40
+msgid "Welcome"
+msgstr "مەرھابا"
+
+#: data/ui/contacts-setup-window.blp:41
+msgid ""
+"Please select your main address book: this is where new contacts will be "
+"added. If you keep your contacts in an online account, you can add them "
+"using the online accounts settings."
+msgstr ""
+"ئاساسىي ئادرېس دەپتىرىنى تاللاڭ: يېڭى ئالاقەداش مەزكۇر ئادرېس دەپتىرىگە "
+"قوشۇلىدۇ. ئەگەر ئالاقەداشلىرىڭىزنى توردىكى ھېساباتىڭىزدا ساقلىسىڭىز، ھېسابات "
+"تەڭشەكتىن ئۇلارنى قوشالايسىز."
+
+#: data/ui/contacts-shortcuts-dialog.blp:7
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "ئىخچام كۆرۈنۈش"
+
+#: data/ui/contacts-shortcuts-dialog.blp:11
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "ياردەم"
+
+#: data/ui/contacts-shortcuts-dialog.blp:16
+msgctxt "shortcut window"
+msgid "Open menu"
+msgstr "تىزىملىك ئاچ"
+
+#: data/ui/contacts-shortcuts-dialog.blp:21
+msgctxt "shortcut window"
+msgid "Show preferences"
+msgstr "مايىللىقنى كۆرسەت"
+
+#: data/ui/contacts-shortcuts-dialog.blp:26
+msgctxt "shortcut window"
+msgid "Create a new contact"
+msgstr "يېڭى ئالاقەداش قۇرىدۇ"
+
+#: data/ui/contacts-shortcuts-dialog.blp:31
+msgctxt "shortcut window"
+msgid "Search contacts"
+msgstr "ئالاقەداش ئىزدە"
+
+#: data/ui/contacts-shortcuts-dialog.blp:36
+msgctxt "shortcut window"
+msgid "Shortcut list"
+msgstr "تېزلەتمە تىزىمى"
+
+#: data/ui/contacts-shortcuts-dialog.blp:41
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "چېكىن"
+
+#: data/ui/contacts-shortcuts-dialog.blp:46
+msgctxt "shortcut window"
+msgid "Editing or creating a contact"
+msgstr "ئالاقەداش تەھرىرلەيدۇ ياكى قۇرىدۇ"
+
+#: data/ui/contacts-shortcuts-dialog.blp:50
+msgctxt "shortcut window"
+msgid "Save current changes to contact"
+msgstr "نۆۋەتتىكى ئالاقەداشنى ساقلايدۇ"
+
+#: data/ui/contacts-shortcuts-dialog.blp:55
+msgctxt "shortcut window"
+msgid "Cancel current changes for contact"
+msgstr "نۆۋەتتىكى ئالاقەداشنىڭ ئۆزگىرىشلىرىدىن ۋاز كېچىدۇ"
+
+#: src/contacts-app.vala:35
+msgid "Show contact with this email address"
+msgstr "مۇشۇنداق ئېلخەت ئادرېسى بار ئالاقەداشنى كۆرسىتىدۇ"
+
+#: src/contacts-app.vala:36
+msgid "Show contact with this individual id"
+msgstr "مۇشۇنداق كىملىكى بار ئالاقەداشنى كۆرسىتىدۇ"
+
+#: src/contacts-app.vala:37
+msgid "Show contacts with the given filter"
+msgstr "بېرىلگەن سۈزگۈچ بويىچە ئالاقەداشنى كۆرسىتىدۇ"
+
+#: src/contacts-app.vala:38
+msgid "Show the current version of Contacts"
+msgstr "ئالاقەداشنىڭ نۆۋەتتىكى نەشرىنى كۆرسىتىدۇ"
+
+#: src/contacts-app.vala:103 src/contacts-app.vala:164
+msgid "Contact not found"
+msgstr "ئالاقەداش تېپىلمىدى"
+
+#: src/contacts-app.vala:104
+#, c-format
+msgid "No contact with id %s found"
+msgstr "كىملىكى %s بولغان ئالاقەداش تېپىلمىدى"
+
+#: src/contacts-app.vala:105 src/contacts-app.vala:166
+#: src/contacts-avatar-selector.vala:248
+msgid "_Close"
+msgstr "ياپ(_C)"
+
+#: src/contacts-app.vala:147
+msgid "translator-credits"
+msgstr ""
+"تەرجىمان تۆھپىسى\n"
+" Gheyret Kenji <gheyret@gmail.com>\n"
+"ئابدۇقادىر ئابلىز <sahranbay@gmail.com>"
+
+#: src/contacts-app.vala:148
+msgid ""
+"© 2011 Red Hat, Inc.\n"
+"© 2011-2020 The Contacts Developers"
+msgstr ""
+"نەشر ھوقۇقى © 2011 Red Hat, Inc غا تەۋە.\n"
+"ئىجادكار ئالاقىسى © 2020-2011"
+
+#: src/contacts-app.vala:165
+#, c-format
+msgid "No contact with email address %s found"
+msgstr "ئېلخەت ئادرېسى %s بولغان ئالاقەداش تېپىلمىدى"
+
+#: src/contacts-app.vala:227
+msgid "Primary address book not found"
+msgstr "ئاساسىي ئادرېس دەپتىرى تېپىلمىدى"
+
+#: src/contacts-app.vala:229
+msgid ""
+"Contacts can't find the configured primary address book. You might "
+"experience issues creating or editing contacts"
+msgstr ""
+"ئالاقەداش سەپلەنگەن ئاساسىي ئادرېس دەپتىرىنى تاپالمىدى. ئالاقەداش قۇرۇش ياكى "
+"تەھرىرلەشتە مەسىلىگە يولۇقۇشىڭىز مۇمكىن"
+
+#: src/contacts-app.vala:230
+msgid "Go To _Preferences"
+msgstr "مايىللىققا يۆتكەل(_P)"
+
+#: src/contacts-app.vala:334
+msgid "Select contact file"
+msgstr "ئالاقەداش ھۆججىتى تاللىنىدۇ"
+
+#: src/contacts-app.vala:335
+msgid "Import"
+msgstr "ئەكىر"
+
+#: src/contacts-app.vala:341
+msgid "vCard files"
+msgstr "vCard ھۆججەت"
+
+#: src/contacts-avatar-selector.vala:117
+msgid "No Camera Detected"
+msgstr "كامېرا بايقالمىدى"
+
+#: src/contacts-avatar-selector.vala:190
+msgid "Browse for more pictures"
+msgstr "تېخىمۇ كۆپ سۈرەتكە كۆز يۈگۈرت"
+
+#: src/contacts-avatar-selector.vala:191
+msgid "_Open"
+msgstr "ئاچ(_O)"
+
+#: src/contacts-avatar-selector.vala:196
+msgid "Image File"
+msgstr "سۈرەت ھۆججىتى"
+
+#: src/contacts-avatar-selector.vala:247
+msgid "Failed to set avatar."
+msgstr "سىما تەڭشىيەلمىدى."
+
+#: src/contacts-contact-editor.vala:190
+msgid "_Show More"
+msgstr "تېخىمۇ كۆپ كۆرسەت(_S)"
+
+#: src/contacts-contact-editor.vala:283
+msgid "Add email"
+msgstr "ئېلخەت قوش"
+
+#: src/contacts-contact-editor.vala:309
+msgid "Add phone number"
+msgstr "تېلېفون نومۇرى قوش"
+
+#: src/contacts-contact-editor.vala:336
+msgid "Website"
+msgstr "تور بېكەت"
+
+#: src/contacts-contact-editor.vala:347
+#: src/core/contacts-full-name-chunk.vala:38
+msgid "Full name"
+msgstr "تولۇق ئاتى"
+
+#: src/contacts-contact-editor.vala:358
+#: src/core/contacts-nickname-chunk.vala:36
+msgid "Nickname"
+msgstr "تەخەللۇس"
+
+#: src/contacts-contact-editor.vala:409
+#: src/core/contacts-birthday-chunk.vala:40
+msgid "Birthday"
+msgstr "تۇغۇلغان كۈن"
+
+#: src/contacts-contact-editor.vala:491
+msgid "Organization"
+msgstr "تەشكىل"
+
+#: src/contacts-contact-editor.vala:497
+msgid "Role"
+msgstr "رول"
+
+#: src/contacts-contact-editor.vala:620
+msgid "Label"
+msgstr "بەلگە"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Street"
+msgstr "كوچا"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Extension"
+msgstr "كېڭەيتىلمە"
+
+#: src/contacts-contact-editor.vala:724
+msgid "City"
+msgstr "شەھەر"
+
+#: src/contacts-contact-editor.vala:724
+msgid "State/Province"
+msgstr "ئىشتات/ئۆلكە"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Zip/Postal Code"
+msgstr "پوچتا نومۇرى"
+
+#: src/contacts-contact-editor.vala:724
+msgid "PO box"
+msgstr "خەت ساندۇقى"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Country"
+msgstr "دۆلەت"
+
+#: src/contacts-contact-list.vala:136
+msgid "Favorites"
+msgstr "يىغقۇچ"
+
+#: src/contacts-contact-list.vala:138
+msgid "All Contacts"
+msgstr "ھەممە ئالاقەداش"
+
+#: src/contacts-contact-sheet.vala:203
+#, c-format
+msgid "Send an email to %s"
+msgstr "%s غا ئېلخەت يوللا"
+
+#: src/contacts-contact-sheet.vala:284
+msgid "Visit website"
+msgstr "تور بېكەت زىيارەت"
+
+#: src/contacts-contact-sheet.vala:321
+msgid "Their birthday is today! 🎉"
+msgstr "بۈگۈن تۇغۇلغان كۈنى! 🎉"
+
+#: src/contacts-contact-sheet.vala:368
+msgid "Show on the map"
+msgstr "خەرىتىدە كۆرسەت"
+
+#: src/contacts-delete-operation.vala:25
+#, c-format
+msgid "Deleting %d contact"
+msgid_plural "Deleting %d contacts"
+msgstr[0] "%d ئالاقەداشنى ئۆچۈرۈۋاتىدۇ"
+
+#. Special-case the local address book
+#: src/contacts-esd-setup.vala:140 src/contacts-utils.vala:108
+msgid "Local Address Book"
+msgstr "يەرلىك ئادرېس دەپتىرى"
+
+#: src/contacts-esd-setup.vala:143 src/contacts-esd-setup.vala:158
+#: src/contacts-utils.vala:138
+msgid "Google"
+msgstr "Google"
+
+#: src/contacts-esd-setup.vala:155
+msgid "Local Contact"
+msgstr "يەرلىك ئالاقەداش"
+
+#: src/contacts-im-service.vala:19
+msgid "AOL Instant Messenger"
+msgstr "AOL مۇڭداشقۇسى"
+
+#: src/contacts-im-service.vala:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/contacts-im-service.vala:21
+msgid "Gadu-Gadu"
+msgstr "Gadu-Gadu"
+
+#: src/contacts-im-service.vala:22
+msgid "Google Talk"
+msgstr "Google سۆھبەت"
+
+#: src/contacts-im-service.vala:23
+msgid "Novell Groupwise"
+msgstr "Novell Groupwise"
+
+#: src/contacts-im-service.vala:24
+msgid "ICQ"
+msgstr "ICQ"
+
+#: src/contacts-im-service.vala:25
+msgid "IRC"
+msgstr "IRC"
+
+#: src/contacts-im-service.vala:26
+msgid "Jabber"
+msgstr "Jabber"
+
+#: src/contacts-im-service.vala:27
+msgid "Livejournal"
+msgstr "Livejournal"
+
+#: src/contacts-im-service.vala:28
+msgid "Local network"
+msgstr "يەرلىك تور"
+
+#: src/contacts-im-service.vala:29
+msgid "Windows Live Messenger"
+msgstr "Windows Live مۇڭداشقۇ"
+
+#: src/contacts-im-service.vala:30
+msgid "MySpace"
+msgstr "MySpace"
+
+#: src/contacts-im-service.vala:31
+msgid "MXit"
+msgstr "MXit"
+
+#: src/contacts-im-service.vala:32
+msgid "Napster"
+msgstr "Napster"
+
+#: src/contacts-im-service.vala:33
+msgid "Ovi Chat"
+msgstr "Ovi Chat"
+
+#: src/contacts-im-service.vala:34
+msgid "Tencent QQ"
+msgstr "تىڭشۈن QQ"
+
+#: src/contacts-im-service.vala:35
+msgid "IBM Lotus Sametime"
+msgstr "IBM Lotus Sametime"
+
+#: src/contacts-im-service.vala:36
+msgid "SILC"
+msgstr "SILC"
+
+#: src/contacts-im-service.vala:37
+msgid "sip"
+msgstr "sip"
+
+#: src/contacts-im-service.vala:38
+msgid "Skype"
+msgstr "Skype"
+
+#: src/contacts-im-service.vala:39
+msgid "Telephony"
+msgstr "تېلېفون"
+
+#: src/contacts-im-service.vala:40
+msgid "Trepia"
+msgstr "Trepia"
+
+#: src/contacts-im-service.vala:41 src/contacts-im-service.vala:42
+msgid "Yahoo! Messenger"
+msgstr "Yahoo! مۇڭداشقۇ"
+
+#: src/contacts-im-service.vala:43
+msgid "Zephyr"
+msgstr "Zephyr"
+
+#: src/contacts-import-dialog.vala:59
+msgid "An error occurred reading the selected file"
+msgstr "تاللانغان ھۆججەتنى ئوقۇۋاتقاندا خاتالىق كۆرۈلدى"
+
+#: src/contacts-import-dialog.vala:83
+#, c-format
+msgid "An error occurred reading the file '%s'"
+msgstr "ھۆججەت «‎%s‎‏» نى ئوقۇۋاتقاندا خاتالىق كۆرۈلدى"
+
+#: src/contacts-import-dialog.vala:90
+msgid "The imported file does not seem to contain any contacts"
+msgstr "ئەكىرگەن ھۆججەتتە ھېچقانداق ئالاقەداش يوقتەك قىلىدۇ"
+
+#: src/contacts-import-dialog.vala:95
+#, c-format
+msgid "Found %u contact"
+msgid_plural "Found %u contacts"
+msgstr[0] "%u ئالاقەداش تېپىلدى"
+
+#: src/contacts-import-dialog.vala:124
+msgid "Processing contacts..."
+msgstr "ئالاقەداشنى بىر تەرەپ قىلىۋاتىدۇ…"
+
+#: src/contacts-import-dialog.vala:129
+#, c-format
+msgid "By continuing, you will import %u contact"
+msgid_plural "By continuing, you will import %u contacts"
+msgstr[0] "ئەگەر داۋاملاشسا، %u ئالاقەداشنى ئەكىرىسىز"
+
+#: src/contacts-link-operation.vala:27
+#, c-format
+msgid "Linked %d contact"
+msgid_plural "Linked %d contacts"
+msgstr[0] "%d ئالاقەداش باغلاندى"
+
+#: src/contacts-link-suggestion-grid.vala:38
+#, c-format
+msgid "Is this the same person as %s from %s?"
+msgstr "%s ئالاقەداش بىلەن %s دىن ئەكىرگەن كىشى بىر ئادەممۇ؟"
+
+#: src/contacts-link-suggestion-grid.vala:41
+#, c-format
+msgid "Is this the same person as %s?"
+msgstr "بۇ كىشى %s بىلەن بىر ئادەممۇ؟"
+
+#: src/contacts-main-window.vala:185
+#, c-format
+msgid "%llu Selected"
+msgid_plural "%llu Selected"
+msgstr[0] "%llu تاللاندى"
+
+#: src/contacts-main-window.vala:215
+msgid "_Add"
+msgstr "قوش(_A)"
+
+#: src/contacts-main-window.vala:242
+#, c-format
+msgid "Editing %s"
+msgstr "«%s» نى تەھرىرلەۋاتىدۇ"
+
+#: src/contacts-main-window.vala:282
+#, c-format
+msgid "%d Selected"
+msgid_plural "%d Selected"
+msgstr[0] "%d تاللاندى"
+
+#: src/contacts-main-window.vala:302 src/contacts-main-window.vala:526
+#: src/contacts-main-window.vala:571
+msgid "_Undo"
+msgstr "يېنىۋال(_U)"
+
+#: src/contacts-main-window.vala:401
+msgid "New Contact"
+msgstr "يېڭى ئالاقەداش"
+
+#: src/contacts-main-window.vala:453
+msgid "Discard changes?"
+msgstr "ئۆزگىرىشنى تاشلىۋېتەمدۇ؟"
+
+#: src/contacts-main-window.vala:454
+msgid "Changes which are not saved will be permanently lost."
+msgstr "ساقلانمىغان ئۆزگىرىش مەڭگۈلۈك يوقىلىدۇ."
+
+#: src/contacts-main-window.vala:456
+msgid "_Discard"
+msgstr "تاشلىۋەت(_D)"
+
+#. Open up a file chooser
+#: src/contacts-main-window.vala:619
+msgid "Export to file"
+msgstr "ھۆججەتكە چىقار"
+
+#: src/contacts-main-window.vala:628
+msgid "contacts.vcf"
+msgstr "contacts.vcf"
+
+#: src/contacts-preferences-window.vala:17
+msgid "Primary Address Book"
+msgstr "ئاساسىي ئادرېس دەپتىرى"
+
+#: src/contacts-preferences-window.vala:18
+msgid ""
+"New contacts will be added to the selected address book. You are able to "
+"view and edit contacts from other address books."
+msgstr ""
+"يېڭى ئالاقەداش تاللانغان ئادرېس دەپتىرىگە قوشۇلىدۇ. ئالاقەداشنى باشقا ئادرېس "
+"دەپتىرىدىن كۆرۈپ ۋە تەھرىرلىيەلەيسىز."
+
+#: src/contacts-preferences-window.vala:27
+msgid "_Online Accounts"
+msgstr "توردىكى ھېسابات(_O)"
+
+#: src/contacts-preferences-window.vala:32
+msgid "Open the Online Accounts panel in Settings"
+msgstr "تەڭشەكتە توردىكى ھېسابات كۆزنەكچىنى ئاچىدۇ"
+
+#: src/contacts-qr-code-dialog.vala:20
+#, c-format
+msgid "Scan the QR code to save the contact <b>%s</b>."
+msgstr "ئالاقەداش <b>%s</b> نى ساقلاشتا QR كودى تارىلىدۇ."
+
+#: src/contacts-unlink-operation.vala:26
+msgid "Unlinking contacts"
+msgstr "ئالاقەداش ئۇلانمىسىنى ئۈز"
+
+#: src/core/contacts-addresses-chunk.vala:17
+msgid "Postal addresses"
+msgstr "پوچتا ئادرېسى"
+
+#: src/core/contacts-alias-chunk.vala:33
+msgid "Alias"
+msgstr "تەخەللۇس"
+
+#: src/core/contacts-avatar-chunk.vala:27
+msgid "Avatar"
+msgstr "سىما"
+
+#: src/core/contacts-contact.vala:27
+msgid "Unnamed Person"
+msgstr "ئاتسىز ئادەم"
+
+#: src/core/contacts-email-addresses-chunk.vala:13
+msgid "Email addresses"
+msgstr "ئېلخەت ئادرېس"
+
+#: src/core/contacts-im-addresses-chunk.vala:18
+msgid "Instant Messaging addresses"
+msgstr "شۇئان مۇڭداشقۇ ئادرېسى"
+
+#: src/core/contacts-notes-chunk.vala:17
+msgid "Notes"
+msgstr "ئىزاھ"
+
+#: src/core/contacts-phones-chunk.vala:17
+msgid "Phone numbers"
+msgstr "تېلېفون نومۇرى"
+
+#. TRANSLATORS: This is the role of a contact in an organisation (e.g. CEO)
+#: src/core/contacts-roles-chunk.vala:19
+msgid "Roles"
+msgstr "ۋەزىپە"
+
+#. TRANSLATORS: "$ROLE at $ORGANISATION", e.g. "CEO at Linux Inc."
+#: src/core/contacts-roles-chunk.vala:119
+#, c-format
+msgid "%s at %s"
+msgstr "%s %s"
+
+#. TRANSLATORS: This is a field which contains a name decomposed in several
+#. parts, rather than a single freeform string for the full name
+#: src/core/contacts-structured-name-chunk.vala:41
+msgid "Structured name"
+msgstr "قۇرۇلمىلىق ئات"
+
+#: src/core/contacts-type-descriptor.vala:71
+#: src/core/contacts-type-set.vala:221
+msgid "Other"
+msgstr "باشقا"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:169 src/core/contacts-type-set.vala:190
+#: src/core/contacts-type-set.vala:216 src/core/contacts-type-set.vala:218
+msgid "Home"
+msgstr "باش بەت"
+
+#: src/core/contacts-type-set.vala:170 src/core/contacts-type-set.vala:191
+#: src/core/contacts-type-set.vala:210 src/core/contacts-type-set.vala:212
+msgid "Work"
+msgstr "ئىش"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:189
+msgid "Personal"
+msgstr "شەخسىي"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:209
+msgid "Assistant"
+msgstr "ياردەمچى"
+
+#: src/core/contacts-type-set.vala:211
+msgid "Work Fax"
+msgstr "خىزمەت فاكس"
+
+#: src/core/contacts-type-set.vala:213
+msgid "Callback"
+msgstr "قايتۇرما چاقىرىق"
+
+#: src/core/contacts-type-set.vala:214
+msgid "Car"
+msgstr "ماشىنا"
+
+#: src/core/contacts-type-set.vala:215
+msgid "Company"
+msgstr "شىركەت"
+
+#: src/core/contacts-type-set.vala:217
+msgid "Home Fax"
+msgstr "ئۆي فاكس"
+
+#: src/core/contacts-type-set.vala:219
+msgid "ISDN"
+msgstr "ISDN"
+
+#: src/core/contacts-type-set.vala:220
+msgid "Mobile"
+msgstr "كۆچمە ئۈسكۈنە"
+
+#: src/core/contacts-type-set.vala:222
+msgid "Fax"
+msgstr "فاكس"
+
+#: src/core/contacts-type-set.vala:223
+msgid "Pager"
+msgstr "چاقىرغۇ"
+
+#: src/core/contacts-type-set.vala:224
+msgid "Radio"
+msgstr "رادىيو"
+
+#: src/core/contacts-type-set.vala:225
+msgid "Telex"
+msgstr "تېلېگرامما"
+
+#. To translators: TTY is Teletypewriter
+#: src/core/contacts-type-set.vala:227
+msgid "TTY"
+msgstr "TTY"
+
+#: src/core/contacts-urls-chunk.vala:17
+msgid "URLs"
+msgstr "تور ئادرېس"
+
+#: src/io/contacts-io-parse-operation.vala:29
+#, c-format
+msgid "Importing contacts from '%s'"
+msgstr "«%s» دىن ئالاقەداش ئەكىرىۋاتىدۇ"
+
+#: src/org.gnome.Contacts.gschema.xml:6
+msgid "First-time setup done."
+msgstr "تۇنجى قېتىملىق تەڭشەش تاماملاندى."
+
+#: src/org.gnome.Contacts.gschema.xml:7
+msgid "Set to true after the user has run the first-time setup wizard."
+msgstr ""
+"ئىشلەتكۈچى تۇنجى قېتىملىق تەڭشەكنى ئىجرا قىلغاندىن كېيىن true يەنى راستقا "
+"تەڭشىدى."
+
+#: src/org.gnome.Contacts.gschema.xml:11
+msgid "Sort contacts on surname."
+msgstr "ئالاقەداشنى تەگئات بويىچە تەرتىپلەيدۇ."
+
+#: src/org.gnome.Contacts.gschema.xml:12
+msgid ""
+"If this is set to true, the list of contacts will be sorted on their "
+"surnames. Otherwise, it will be sorted on the first names of the contacts."
+msgstr ""
+"ئەگەر بۇ تاللانما true يەنى راستقا تەڭشەلسە، ئالاقەداش تىزىمى تەگئات بويىچە "
+"تەرتىپلەيدۇ. ئۇنداق بولمىسا، ئالاقەداش ئاتى بويىچە تەرتىپلەيدۇ."
+
+#: src/org.gnome.Contacts.gschema.xml:19
+msgid "The default height of the contacts window."
+msgstr "ئالاقەداش كۆزنىكىنىڭ كۆڭۈلدىكى ئېگىزلىكى."
+
+#: src/org.gnome.Contacts.gschema.xml:20
+msgid ""
+"If the window size has not been changed by the user yet this will be used as "
+"the initial value for the height of the window."
+msgstr ""
+"ئەگەر كۆزنەك چوڭلۇقىنى ئىشلەتكۈچى ئۆزگەرتمىگەن بولسا، بۇنى كۆزنەك "
+"ئېگىزلىكىنىڭ دەسلەپكى قىممىتى قىلىپ تەڭشەيدۇ."
+
+#: src/org.gnome.Contacts.gschema.xml:26
+msgid "The default width of the contacts window."
+msgstr "ئالاقەداش كۆزنىكىنىڭ كۆڭۈلدىكى كەڭلىكى."
+
+#: src/org.gnome.Contacts.gschema.xml:27
+msgid ""
+"If the window size has not been changed by the user yet this will be used as "
+"the initial value for the width of the window."
+msgstr ""
+"ئەگەر كۆزنەك چوڭلۇقىنى ئىشلەتكۈچى ئۆزگەرتمىگەن بولسا، بۇنى كۆزنەك كەڭلىكىنىڭ "
+"دەسلەپكى قىممىتى قىلىپ تەڭشەيدۇ."
+
+#: src/org.gnome.Contacts.gschema.xml:32
+msgid "Is the window maximized?"
+msgstr "كۆزنەك چوڭايتىلغانمۇ؟"
+
+#: src/org.gnome.Contacts.gschema.xml:33 src/org.gnome.Contacts.gschema.xml:38
+msgid "Stores if the window is currently maximized."
+msgstr "نۆۋەتتە كۆزنەكنىڭ چوڭايتىلغان ياكى چوڭايتىلمىغان ھالىتىنى ساقلايدۇ."
+
+#: src/org.gnome.Contacts.gschema.xml:37
+msgid "Is the window fullscreen"
+msgstr "كۆزنەك تولۇق ئېكران ھالەتتىمۇ"
+
+#~ msgid "Can't import: no contacts found"
+#~ msgstr "ئەكىرەلمەيدۇ: ئالاقەداش تېپىلمىدى"
+
+#~ msgid "View"
+#~ msgstr "كۆرۈنۈش"
+
+#~ msgid "_Change Address Book..."
+#~ msgstr "ئادرېس دەپتىرىنى ئۆزگەرت(_C)…"
+
+#~ msgid "Change Address Book"
+#~ msgstr "ئادرېس دەپتىرىنى ئۆزگەرتىش"
+
+#~ msgid "GNOME Contacts"
+#~ msgstr "گىنوم ئالاقەداشلىرى"
+
+#~ msgid "About GNOME Contacts"
+#~ msgstr "گىنوم ئالاقەداشلىرى ھەققىدە"
+
+#~ msgid "Contact Management Application"
+#~ msgstr "ئالاقەداشلارنى باشقۇرۇش پروگراممىسى"
+
+#~ msgid "New"
+#~ msgstr "يېڭى"
+
+#~ msgid "Edit"
+#~ msgstr "تەھرىرلەش"
+
+#, c-format
+#~ msgid "%d contacts linked"
+#~ msgid_plural "%d contacts linked"
+#~ msgstr[0] "%d ئالاقەداش ئۇلاندى"
+
+#, c-format
+#~ msgid "%d contact deleted"
+#~ msgid_plural "%d contacts deleted"
+#~ msgstr[0] "%d ئالاقەداش ئۆچۈرۈلدى"
+
+#, c-format
+#~ msgid "Contact deleted: \"%s\""
+#~ msgstr "ئالاقەداش ئۆچۈرۈلدى: «%s»"
+
+#, c-format
+#~ msgid "%s linked to %s"
+#~ msgstr "%s نى %s غا ئۇلىدى"
+
+#~ msgid "— contact management"
+#~ msgstr "— ئالاقەداش باشقۇرۇش"
+
+#~ msgid "January"
+#~ msgstr "قەھرىتان"
+
+#~ msgid "February"
+#~ msgstr "ھۇت"
+
+#~ msgid "March"
+#~ msgstr "نەۋرۇز"
+
+#~ msgid "April"
+#~ msgstr "ئۈمىد"
+
+#~ msgid "June"
+#~ msgstr "سەپەر"
+
+#~ msgid "July"
+#~ msgstr "چىللە"
+
+#~ msgid "August"
+#~ msgstr "تومۇز"
+
+#~ msgid "September"
+#~ msgstr "مىزان"
+
+#~ msgid "October"
+#~ msgstr "ئوغۇز"
+
+#~ msgid "November"
+#~ msgstr "ئوغلاق"
+
+#~ msgid "December"
+#~ msgstr "كۆنەك"
+
+#~ msgid "Note"
+#~ msgstr "ئىزاھات"
+
+#, c-format
+#~ msgid "Does %s from %s belong here?"
+#~ msgstr "%s (%s) بۇ يەرگە تەۋەمۇ؟"
+
+#, c-format
+#~ msgid "Do these details belong to %s?"
+#~ msgstr "بۇ تەپسىلاتلار %s نىڭغا تەۋەمۇ؟"
+
+#~ msgid "Yes"
+#~ msgstr "ھەئە"
+
+#~ msgid "No"
+#~ msgstr "ياق"
+
+#~ msgid "New Detail"
+#~ msgstr "يېڭى تەپسىلات"
+
+#~ msgid "Personal email"
+#~ msgstr "شەخسىي ئېلخەت"
+
+#~ msgid "Work email"
+#~ msgstr "خىزمەتتىكى ئېلخەت"
+
+#~ msgid "Mobile phone"
+#~ msgstr "يانفون"
+
+#~ msgid "Home phone"
+#~ msgstr "ئۆي تېلېفونى"
+
+#~ msgid "Work phone"
+#~ msgstr "خىزمەت تېلېفونى"
+
+#~ msgid "Work address"
+#~ msgstr "خىزمەت ئادرېسى"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Google Profile"
+#~ msgstr "Google Profile"
+
+#~ msgid "Unexpected internal error: created contact was not found"
+#~ msgstr "ئىچكى خاتالىق: ياسالغان ئالاقەداش تېپىلمىدى"
+
+#~ msgid "Google Circles"
+#~ msgstr "Google Circles"
+
+#~ msgid "Google Other Contact"
+#~ msgstr "Google Other Contact"
+
+#, c-format
+#~ msgid "%s - Linked Accounts"
+#~ msgstr "%s - ئۇلانغان ھېساباتلار"
+
+#~ msgid "You can manually link contacts from the contacts list"
+#~ msgstr "ئالاقەداشلار تىزىمىدىكى ئالاقەداشلارنى قولدا ئۇلىيالايسىز"
+
+#~ msgid "Remove"
+#~ msgstr "چىقىرىۋەت"
+
+#~ msgid ""
+#~ "Add or \n"
+#~ "select a picture"
+#~ msgstr "سۈرەت قوشۇڭ ياكى تاللاڭ"
+
+#~ msgid "Contact Name"
+#~ msgstr "ئالاقەداش ئاتى"
+
+#~ msgid "Email"
+#~ msgstr "ئېلخەت"
+
+#~ msgid "Phone"
+#~ msgstr "تېلېفون"
+
+#~ msgid "Address"
+#~ msgstr "ئادرېس"
+
+#~ msgid "You must specify a contact name"
+#~ msgstr "بىر ئالاقەداش ئاتىنى كۆرسىتىپ بېرىڭ."
+
+#, c-format
+#~ msgid "Unable to create new contacts: %s\n"
+#~ msgstr "يېڭى ئالاقەداش قۇرالمىدى: %s\n"
+
+#~ msgid "Unable to find newly created contact\n"
+#~ msgstr "يېڭىدىن قۇرغان ئالاقەداشنى تاپالمىدى\n"
+
+#~ msgid ""
+#~ "Welcome to Contacts! Please select where you want to keep your address "
+#~ "book:"
+#~ msgstr "ئالاقەداشلارغا مەرھابا! ئادرېس دەپتىرىنى قەيەردە ساقلايسىز تاللاڭ:"
+
+#~ msgid "Setup an online account or use a local address book"
+#~ msgstr "توردا بىر ھېساب ئېچىڭ ياكى يەرلىك ئادرېس دەپتىرىنى ئىشلىتىڭ"
+
+#~ msgid "Use Local Address Book"
+#~ msgstr "يەرلىك ئادرېس دەپتىرى"
+
+#~ msgid "Suggestions"
+#~ msgstr "نامزاتلار"
+
+#~ msgid "View subset"
+#~ msgstr "تارماق توپنى كۆرۈش"
+
+#~ msgid "View contacts subset"
+#~ msgstr "ئالاقەداشلار تارماق توپىنى كۆرۈش"

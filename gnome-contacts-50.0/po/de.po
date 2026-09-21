@@ -1,0 +1,1263 @@
+# German translation for gnome-contacts.
+# Copyright (C) 2011 gnome-contacts's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-contacts package.
+#
+# Paul Gölz <itg@ist-einmalig.de>, 2011.
+# Christian Kirbach <Christian.Kirbach@gmail.com>, 2012.
+# Benjamin Steinwender <b@stbe.at>, 2013.
+# Tobias Endrigkeit <tobiasendrigkeit@outlook.com>, 2012, 2013.
+# Wolfgang Stöggl <c72578@yahoo.de>, 2011, 2014.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2012, 2016-2018.
+# Tim Sabsch <tim@sabsch.com>, 2018-2022.
+# Philipp Kiemle <l10n@prly.mozmail.com>, 2020-2025.
+# Jürgen Benvenuti <gastornis@posteo.org>, 2022-2024, 2026.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-contacts master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-contacts/issues\n"
+"POT-Creation-Date: 2026-01-13 17:54+0000\n"
+"PO-Revision-Date: 2026-02-09 21:21+0100\n"
+"Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/org.gnome.Contacts.desktop.in.in:2
+#: data/org.gnome.Contacts.metainfo.xml.in.in:6
+#: data/ui/contacts-main-window.blp:135 src/contacts-app.vala:249
+#: src/contacts-main-window.vala:183 src/contacts-main-window.vala:206
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: data/org.gnome.Contacts.desktop.in.in:3
+#: data/org.gnome.Contacts.metainfo.xml.in.in:7
+msgid "Manage your contacts"
+msgstr "Ihre Kontakte verwalten"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Contacts.desktop.in.in:5
+msgid "friends;address book;"
+msgstr "friends;address book;Freunde;Adressbuch;Kontakte;"
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:9
+msgid ""
+"Contacts keeps and organize your contacts information. You can create, edit, "
+"delete and link together pieces of information about your contacts. Contacts "
+"aggregates the details from all your sources providing a centralized place "
+"for managing your contacts."
+msgstr ""
+"Die Kontaktverwaltung speichert und organisiert Informationen Ihrer "
+"Kontakte. Sie können Kontaktinformationen erstellen, bearbeiten, löschen und "
+"miteinander verknüpfen. Die Kontaktverwaltung fasst die Details aus Ihren "
+"Quellen zusammen und bietet einen zentralen Ort, um Ihre Kontakte zu "
+"verwalten."
+
+#: data/org.gnome.Contacts.metainfo.xml.in.in:15
+msgid ""
+"Contacts will also integrate with online address books and automatically "
+"link contacts from different online sources."
+msgstr ""
+"Die Kontaktverwaltung integriert sich auch in Ihre Online-Adressbücher und "
+"verknüpft Kontakte aus verschiedenen Online-Quellen."
+
+# Bildschirmfoto-Beschreibung
+#: data/org.gnome.Contacts.metainfo.xml.in.in:22
+msgid "Contacts with no contacts"
+msgstr "Kontakte ohne Kontakte"
+
+# Bildschirmfoto-Beschreibung
+#: data/org.gnome.Contacts.metainfo.xml.in.in:26
+msgid "Contacts filled with contacts"
+msgstr "Kontakte mit eingetragenen Kontakten"
+
+# Bildschirmfoto-Beschreibung
+#: data/org.gnome.Contacts.metainfo.xml.in.in:30
+msgid "Contacts in selection mode"
+msgstr "Kontakte im Auswahl-Modus"
+
+# Bildschirmfoto-Beschreibung
+#: data/org.gnome.Contacts.metainfo.xml.in.in:34
+msgid "Contacts setup view"
+msgstr "Einrichtungsassistent von Kontakte"
+
+# Bildschirmfoto-Beschreibung
+#: data/org.gnome.Contacts.metainfo.xml.in.in:38
+msgid "Contacts edit view"
+msgstr "Kontakte im Bearbeitungsmodus"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Contacts.metainfo.xml.in.in:1212 src/contacts-app.vala:141
+msgid "The GNOME Project"
+msgstr "Das GNOME Projekt"
+
+#: data/ui/contacts-avatar-selector.blp:8
+msgid "Select a new avatar"
+msgstr "Ein neues Benutzerbild auswählen"
+
+#: data/ui/contacts-avatar-selector.blp:18
+#: data/ui/contacts-birthday-editor.blp:17 data/ui/contacts-crop-dialog.blp:19
+#: data/ui/contacts-import-dialog.blp:18 data/ui/contacts-main-window.blp:166
+#: data/ui/contacts-main-window.blp:278 src/contacts-app.vala:233
+#: src/contacts-main-window.vala:455 src/contacts-main-window.vala:558
+msgid "_Cancel"
+msgstr "_Abbrechen"
+
+#: data/ui/contacts-avatar-selector.blp:27 data/ui/contacts-crop-dialog.blp:28
+#: data/ui/contacts-main-window.blp:308 data/ui/contacts-setup-window.blp:27
+#: src/contacts-main-window.vala:215
+msgid "_Done"
+msgstr "_Fertig"
+
+#: data/ui/contacts-avatar-selector.blp:72
+msgid "_Take a Picture…"
+msgstr "Ein Fo_to aufnehmen …"
+
+#: data/ui/contacts-avatar-selector.blp:80
+msgid "_Select a File…"
+msgstr "Eine Datei au_swählen …"
+
+#: data/ui/contacts-birthday-editor.blp:6
+msgid "Set Birthday"
+msgstr "Geburtstag festlegen"
+
+#: data/ui/contacts-birthday-editor.blp:26
+msgid "_Set"
+msgstr "_Festlegen"
+
+#: data/ui/contacts-birthday-editor.blp:40
+msgid "Day"
+msgstr "Tag"
+
+#: data/ui/contacts-birthday-editor.blp:52
+msgid "Month"
+msgstr "Monat"
+
+#: data/ui/contacts-birthday-editor.blp:57
+msgid "Year"
+msgstr "Jahr"
+
+#: data/ui/contacts-birthday-editor.blp:71
+msgid "Remove Birthday"
+msgstr "Geburtstag entfernen"
+
+#. clearing right_header
+#: data/ui/contacts-contact-pane.blp:15 data/ui/contacts-main-window.blp:268
+#: src/contacts-main-window.vala:355 src/contacts-main-window.vala:386
+#: src/contacts-main-window.vala:493
+msgid "Select a Contact"
+msgstr "Einen Kontakt auswählen"
+
+#: data/ui/contacts-crop-dialog.blp:8
+msgid "Take a Picture"
+msgstr "Ein Foto aufnehmen"
+
+#: data/ui/contacts-editable-avatar.blp:19
+msgid "Change Avatar"
+msgstr "Benutzerbild ändern"
+
+#: data/ui/contacts-editable-avatar.blp:39
+msgid "Remove Avatar"
+msgstr "Benutzerbild entfernen"
+
+#: data/ui/contacts-import-dialog.blp:8
+msgid "Import Contacts"
+msgstr "Kontakte importieren"
+
+#: data/ui/contacts-import-dialog.blp:25
+msgid "_Import"
+msgstr "_Importieren"
+
+#: data/ui/contacts-link-suggestion-grid.blp:52
+msgid "Link Contacts"
+msgstr "Kontakte verknüpfen"
+
+#: data/ui/contacts-main-window.blp:7
+msgid "List Contacts By:"
+msgstr "Kontakte auflisten nach:"
+
+#: data/ui/contacts-main-window.blp:10
+msgid "_First Name"
+msgstr "_Vorname"
+
+#: data/ui/contacts-main-window.blp:16
+msgid "_Surname"
+msgstr "_Nachname"
+
+#: data/ui/contacts-main-window.blp:24
+msgid "_Import From File…"
+msgstr "Aus Datei _importieren …"
+
+#: data/ui/contacts-main-window.blp:29
+msgid "_Export All Contacts…"
+msgstr "Alle Kontakte _exportieren …"
+
+#: data/ui/contacts-main-window.blp:36
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
+#: data/ui/contacts-main-window.blp:41
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastenkürzel"
+
+#: data/ui/contacts-main-window.blp:46
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: data/ui/contacts-main-window.blp:51
+msgid "_About Contacts"
+msgstr "_Info zu Kontakte"
+
+#: data/ui/contacts-main-window.blp:60
+msgid "Mark as Favorite"
+msgstr "Als Favorit markieren"
+
+#: data/ui/contacts-main-window.blp:66
+msgid "Unmark as Favorite"
+msgstr "Favoriten-Markierung entfernen"
+
+#: data/ui/contacts-main-window.blp:72
+msgid "Share as QR Code"
+msgstr "Als QR-Code freigeben"
+
+#: data/ui/contacts-main-window.blp:77
+msgid "Export"
+msgstr "Exportieren"
+
+#: data/ui/contacts-main-window.blp:84
+msgid "Delete Contact"
+msgstr "Kontakt löschen"
+
+#: data/ui/contacts-main-window.blp:143
+msgid "Add New Contact"
+msgstr "Neuen Kontakt hinzufügen"
+
+#: data/ui/contacts-main-window.blp:152
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: data/ui/contacts-main-window.blp:159
+msgid "Select Contacts"
+msgstr "Kontakte auswählen"
+
+#: data/ui/contacts-main-window.blp:168
+msgid "Cancel Selection"
+msgstr "Auswahl zurücksetzen"
+
+#: data/ui/contacts-main-window.blp:181
+msgid "Search contacts"
+msgstr "Kontakte durchsuchen"
+
+#. Translators: Export refers to the verb
+#: data/ui/contacts-main-window.blp:226 src/contacts-main-window.vala:620
+msgid "_Export"
+msgstr "_Exportieren"
+
+#: data/ui/contacts-main-window.blp:228
+msgid "Export Selected Contacts"
+msgstr "Ausgewählte Kontakte exportieren"
+
+#. Translators: Link refers to the verb, from linking contacts together
+#: data/ui/contacts-main-window.blp:237
+msgid "_Link"
+msgstr "_Verknüpfen"
+
+#: data/ui/contacts-main-window.blp:239
+msgid "Link Selected Contacts Together"
+msgstr "Ausgewählte Kontakte miteinander verknüpfen"
+
+#: data/ui/contacts-main-window.blp:252
+msgid "_Delete"
+msgstr "_Löschen"
+
+#: data/ui/contacts-main-window.blp:293
+msgid "Edit Contact"
+msgstr "Kontakt bearbeiten"
+
+#: data/ui/contacts-main-window.blp:299
+msgid "Contact Menu"
+msgstr "Kontaktmenü"
+
+#: data/ui/contacts-preferences-window.blp:7
+msgid "Address Books"
+msgstr "Adressbücher"
+
+#: data/ui/contacts-qr-code-dialog.blp:8
+msgid "Share Contact"
+msgstr "Kontakt freigeben"
+
+#: data/ui/contacts-qr-code-dialog.blp:30
+msgid "QR Code"
+msgstr "QR-Code"
+
+#: data/ui/contacts-qr-code-dialog.blp:39
+msgid "Scan to Save"
+msgstr "Scannen zum Speichern"
+
+#: data/ui/contacts-setup-window.blp:9
+msgid "Contacts Setup"
+msgstr "Kontakte einrichten"
+
+#: data/ui/contacts-setup-window.blp:17
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: data/ui/contacts-setup-window.blp:19
+msgid "Cancel Setup And Quit"
+msgstr "Einrichtung abbrechen und beenden"
+
+#. Translators: "Complete" is a verb here: a user finishes the setup by clicking this button
+#: data/ui/contacts-setup-window.blp:29
+msgid "Complete setup"
+msgstr "Einrichtung abschließen"
+
+#: data/ui/contacts-setup-window.blp:40
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: data/ui/contacts-setup-window.blp:41
+msgid ""
+"Please select your main address book: this is where new contacts will be "
+"added. If you keep your contacts in an online account, you can add them "
+"using the online accounts settings."
+msgstr ""
+"Bitte wählen Sie Ihr Haupt-Adressbuch: dort werden neue Kontakte "
+"hinzugefügt. Falls Sie Ihre Kontakte in einem Online-Konto verwalten, können "
+"Sie dieses in den Einstellungen für Online-Konten hinzufügen."
+
+#: data/ui/contacts-shortcuts-dialog.blp:7
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Übersicht"
+
+#: data/ui/contacts-shortcuts-dialog.blp:11
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Hilfe"
+
+#: data/ui/contacts-shortcuts-dialog.blp:16
+msgctxt "shortcut window"
+msgid "Open menu"
+msgstr "Menü öffnen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:21
+msgctxt "shortcut window"
+msgid "Show preferences"
+msgstr "Einstellungen anzeigen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:26
+msgctxt "shortcut window"
+msgid "Create a new contact"
+msgstr "Einen neuen Kontakt anlegen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:31
+msgctxt "shortcut window"
+msgid "Search contacts"
+msgstr "Kontakte durchsuchen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:36
+msgctxt "shortcut window"
+msgid "Shortcut list"
+msgstr "Liste der Tastenkombinationen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:41
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Beenden"
+
+#: data/ui/contacts-shortcuts-dialog.blp:46
+msgctxt "shortcut window"
+msgid "Editing or creating a contact"
+msgstr "Einen Kontakt bearbeiten oder erstellen"
+
+#: data/ui/contacts-shortcuts-dialog.blp:50
+msgctxt "shortcut window"
+msgid "Save current changes to contact"
+msgstr "Aktuelle Änderungen in Kontakt speichern"
+
+#: data/ui/contacts-shortcuts-dialog.blp:55
+msgctxt "shortcut window"
+msgid "Cancel current changes for contact"
+msgstr "Aktuelle Änderungen für Kontakt abbrechen"
+
+#: src/contacts-app.vala:35
+msgid "Show contact with this email address"
+msgstr "Kontakt mit dieser individuellen E-Mail-Adresse anzeigen"
+
+#: src/contacts-app.vala:36
+msgid "Show contact with this individual id"
+msgstr "Kontakt mit dieser individuellen Kennung anzeigen"
+
+#: src/contacts-app.vala:37
+msgid "Show contacts with the given filter"
+msgstr "Kontakte mit den gegebenen Kriterien anzeigen"
+
+#: src/contacts-app.vala:38
+msgid "Show the current version of Contacts"
+msgstr "Die aktuelle Version von Kontakte anzeigen"
+
+#: src/contacts-app.vala:103 src/contacts-app.vala:164
+msgid "Contact not found"
+msgstr "Kontakt nicht gefunden"
+
+#: src/contacts-app.vala:104
+#, c-format
+msgid "No contact with id %s found"
+msgstr "Kein Kontakt mit Kennung %s gefunden"
+
+#: src/contacts-app.vala:105 src/contacts-app.vala:166
+#: src/contacts-avatar-selector.vala:248
+msgid "_Close"
+msgstr "S_chließen"
+
+#: src/contacts-app.vala:147
+msgid "translator-credits"
+msgstr ""
+"Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Christian Kirbach <Christian.Kirbach@gmail.com>\n"
+"Benjamin Steinwender <b@stbe.at>\n"
+"Tobias Endrigkeit <tobiasendrigkeit@googlemail.com>\n"
+"Tim Sabsch <tim@sabsch.com>\n"
+"Philipp Kiemle <l10n@prly.mozmail.com>\n"
+"Jürgen Benvenuti <gastornis@posteo.org>"
+
+#: src/contacts-app.vala:148
+msgid ""
+"© 2011 Red Hat, Inc.\n"
+"© 2011-2020 The Contacts Developers"
+msgstr ""
+"© 2011 Red Hat, Inc.\n"
+"© 2011-2020 Die Kontakte-Entwickler"
+
+#: src/contacts-app.vala:165
+#, c-format
+msgid "No contact with email address %s found"
+msgstr "Kein Kontakt mit E-Mail-Adresse %s gefunden"
+
+#: src/contacts-app.vala:227
+msgid "Primary address book not found"
+msgstr "Primäres Adressbuch wurde nicht gefunden"
+
+#: src/contacts-app.vala:229
+msgid ""
+"Contacts can't find the configured primary address book. You might "
+"experience issues creating or editing contacts"
+msgstr ""
+"Kontakte kann das eingerichtete primäre Adressbuch nicht finden. Sie könnten "
+"Probleme beim Erstellen oder Bearbeiten von Kontakten bekommen"
+
+#: src/contacts-app.vala:230
+msgid "Go To _Preferences"
+msgstr "Zu den _Einstellungen gehen"
+
+#: src/contacts-app.vala:334
+msgid "Select contact file"
+msgstr "Kontaktdatei auswählen"
+
+#: src/contacts-app.vala:335
+msgid "Import"
+msgstr "Importieren"
+
+#: src/contacts-app.vala:341
+msgid "vCard files"
+msgstr "vCard-Dateien"
+
+#: src/contacts-avatar-selector.vala:117
+msgid "No Camera Detected"
+msgstr "Keine Kamera erkannt"
+
+#: src/contacts-avatar-selector.vala:190
+msgid "Browse for more pictures"
+msgstr "Nach weiteren Bildern suchen"
+
+#: src/contacts-avatar-selector.vala:191
+msgid "_Open"
+msgstr "_Öffnen"
+
+#: src/contacts-avatar-selector.vala:196
+msgid "Image File"
+msgstr "Bilddatei"
+
+#: src/contacts-avatar-selector.vala:247
+msgid "Failed to set avatar."
+msgstr "Benutzerbild konnte nicht festgelegt werden."
+
+#: src/contacts-contact-editor.vala:190
+msgid "_Show More"
+msgstr "_Mehr anzeigen"
+
+#: src/contacts-contact-editor.vala:283
+msgid "Add email"
+msgstr "E-Mail hinzufügen"
+
+#: src/contacts-contact-editor.vala:309
+msgid "Add phone number"
+msgstr "Telefonnummer hinzufügen"
+
+#: src/contacts-contact-editor.vala:336
+msgid "Website"
+msgstr "Webseite"
+
+#: src/contacts-contact-editor.vala:347
+#: src/core/contacts-full-name-chunk.vala:38
+msgid "Full name"
+msgstr "Voller Name"
+
+#: src/contacts-contact-editor.vala:358
+#: src/core/contacts-nickname-chunk.vala:36
+msgid "Nickname"
+msgstr "Spitzname"
+
+#: src/contacts-contact-editor.vala:409
+#: src/core/contacts-birthday-chunk.vala:40
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: src/contacts-contact-editor.vala:491
+msgid "Organization"
+msgstr "Organisation"
+
+#: src/contacts-contact-editor.vala:497
+msgid "Role"
+msgstr "Rolle"
+
+#: src/contacts-contact-editor.vala:620
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Street"
+msgstr "Straße"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Extension"
+msgstr "Erweiterung"
+
+#: src/contacts-contact-editor.vala:724
+msgid "City"
+msgstr "Stadt"
+
+#: src/contacts-contact-editor.vala:724
+msgid "State/Province"
+msgstr "Staat/Provinz"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Zip/Postal Code"
+msgstr "Postleitzahl"
+
+#: src/contacts-contact-editor.vala:724
+msgid "PO box"
+msgstr "Postfach"
+
+#: src/contacts-contact-editor.vala:724
+msgid "Country"
+msgstr "Land"
+
+#: src/contacts-contact-list.vala:136
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: src/contacts-contact-list.vala:138
+msgid "All Contacts"
+msgstr "Alle Kontakte"
+
+#: src/contacts-contact-sheet.vala:203
+#, c-format
+msgid "Send an email to %s"
+msgstr "Eine E-Mail an %s senden"
+
+#: src/contacts-contact-sheet.vala:284
+msgid "Visit website"
+msgstr "Webseite besuchen"
+
+#: src/contacts-contact-sheet.vala:321
+msgid "Their birthday is today! 🎉"
+msgstr "Die Person hat heute Geburtstag! 🎉"
+
+#: src/contacts-contact-sheet.vala:368
+msgid "Show on the map"
+msgstr "Auf der Karte zeigen"
+
+#: src/contacts-delete-operation.vala:25
+#, c-format
+msgid "Deleting %d contact"
+msgid_plural "Deleting %d contacts"
+msgstr[0] "%d Kontakt wird gelöscht"
+msgstr[1] "%d Kontakte werden gelöscht"
+
+#. Special-case the local address book
+#: src/contacts-esd-setup.vala:140 src/contacts-utils.vala:108
+msgid "Local Address Book"
+msgstr "Lokales Adressbuch"
+
+#: src/contacts-esd-setup.vala:143 src/contacts-esd-setup.vala:158
+#: src/contacts-utils.vala:138
+msgid "Google"
+msgstr "Google"
+
+#: src/contacts-esd-setup.vala:155
+msgid "Local Contact"
+msgstr "Lokaler Kontakt"
+
+#: src/contacts-im-service.vala:19
+msgid "AOL Instant Messenger"
+msgstr "AOL Instant Messenger"
+
+#: src/contacts-im-service.vala:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/contacts-im-service.vala:21
+msgid "Gadu-Gadu"
+msgstr "Gadu-Gadu"
+
+#: src/contacts-im-service.vala:22
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: src/contacts-im-service.vala:23
+msgid "Novell Groupwise"
+msgstr "Novell GroupWise"
+
+#: src/contacts-im-service.vala:24
+msgid "ICQ"
+msgstr "ICQ"
+
+#: src/contacts-im-service.vala:25
+msgid "IRC"
+msgstr "IRC"
+
+#: src/contacts-im-service.vala:26
+msgid "Jabber"
+msgstr "Jabber"
+
+#: src/contacts-im-service.vala:27
+msgid "Livejournal"
+msgstr "Livejournal"
+
+#: src/contacts-im-service.vala:28
+msgid "Local network"
+msgstr "Lokales Netzwerk"
+
+#: src/contacts-im-service.vala:29
+msgid "Windows Live Messenger"
+msgstr "Windows Live Messenger"
+
+#: src/contacts-im-service.vala:30
+msgid "MySpace"
+msgstr "MySpace"
+
+#: src/contacts-im-service.vala:31
+msgid "MXit"
+msgstr "MXit"
+
+#: src/contacts-im-service.vala:32
+msgid "Napster"
+msgstr "Napster"
+
+#: src/contacts-im-service.vala:33
+msgid "Ovi Chat"
+msgstr "Ovi Chat"
+
+#: src/contacts-im-service.vala:34
+msgid "Tencent QQ"
+msgstr "Tencent QQ"
+
+#: src/contacts-im-service.vala:35
+msgid "IBM Lotus Sametime"
+msgstr "IBM Lotus Sametime"
+
+#: src/contacts-im-service.vala:36
+msgid "SILC"
+msgstr "SILC"
+
+#: src/contacts-im-service.vala:37
+msgid "sip"
+msgstr "SIP"
+
+#: src/contacts-im-service.vala:38
+msgid "Skype"
+msgstr "Skype"
+
+#: src/contacts-im-service.vala:39
+msgid "Telephony"
+msgstr "Telefon"
+
+#: src/contacts-im-service.vala:40
+msgid "Trepia"
+msgstr "Trepia"
+
+#: src/contacts-im-service.vala:41 src/contacts-im-service.vala:42
+msgid "Yahoo! Messenger"
+msgstr "Yahoo! Messenger"
+
+#: src/contacts-im-service.vala:43
+msgid "Zephyr"
+msgstr "Zephyr"
+
+#: src/contacts-import-dialog.vala:59
+msgid "An error occurred reading the selected file"
+msgstr "Fehler beim Lesen der ausgewählten Datei"
+
+#: src/contacts-import-dialog.vala:83
+#, c-format
+msgid "An error occurred reading the file '%s'"
+msgstr "Fehler beim Lesen der Datei »%s«"
+
+#: src/contacts-import-dialog.vala:90
+msgid "The imported file does not seem to contain any contacts"
+msgstr "Die importierte Datei scheint keine Kontakte zu enthalten"
+
+#: src/contacts-import-dialog.vala:95
+#, c-format
+msgid "Found %u contact"
+msgid_plural "Found %u contacts"
+msgstr[0] "%u Kontakt gefunden"
+msgstr[1] "%u Kontakte gefunden"
+
+#: src/contacts-import-dialog.vala:124
+msgid "Processing contacts..."
+msgstr "Kontakte werden verarbeitet …"
+
+#: src/contacts-import-dialog.vala:129
+#, c-format
+msgid "By continuing, you will import %u contact"
+msgid_plural "By continuing, you will import %u contacts"
+msgstr[0] "Wenn Sie fortfahren, wird %u Kontakt importiert"
+msgstr[1] "Wenn Sie fortfahren, werden %u Kontakte importiert"
+
+#: src/contacts-link-operation.vala:27
+#, c-format
+msgid "Linked %d contact"
+msgid_plural "Linked %d contacts"
+msgstr[0] "%d Kontakt verknüpft"
+msgstr[1] "%d Kontakte verknüpft"
+
+#: src/contacts-link-suggestion-grid.vala:38
+#, c-format
+msgid "Is this the same person as %s from %s?"
+msgstr "Ist dies dieselbe Person wie %s aus %s?"
+
+#: src/contacts-link-suggestion-grid.vala:41
+#, c-format
+msgid "Is this the same person as %s?"
+msgstr "Ist dies dieselbe Person wie %s?"
+
+#: src/contacts-main-window.vala:185
+#, c-format
+msgid "%llu Selected"
+msgid_plural "%llu Selected"
+msgstr[0] "%llu ausgewählt"
+msgstr[1] "%llu ausgewählt"
+
+#: src/contacts-main-window.vala:215
+msgid "_Add"
+msgstr "_Hinzufügen"
+
+#: src/contacts-main-window.vala:242
+#, c-format
+msgid "Editing %s"
+msgstr "%s wird bearbeitet"
+
+#: src/contacts-main-window.vala:282
+#, c-format
+msgid "%d Selected"
+msgid_plural "%d Selected"
+msgstr[0] "%d ausgewählt"
+msgstr[1] "%d ausgewählt"
+
+#: src/contacts-main-window.vala:302 src/contacts-main-window.vala:526
+#: src/contacts-main-window.vala:571
+msgid "_Undo"
+msgstr "_Rückgängig"
+
+#: src/contacts-main-window.vala:401
+msgid "New Contact"
+msgstr "Neuer Kontakt"
+
+#: src/contacts-main-window.vala:453
+msgid "Discard changes?"
+msgstr "Änderungen verwerfen?"
+
+#: src/contacts-main-window.vala:454
+msgid "Changes which are not saved will be permanently lost."
+msgstr "Nicht gespeicherte Änderungen gehen unwiederbringlich verloren."
+
+#: src/contacts-main-window.vala:456
+msgid "_Discard"
+msgstr "Ver_werfen"
+
+#. Open up a file chooser
+#: src/contacts-main-window.vala:619
+msgid "Export to file"
+msgstr "In eine Datei exportieren"
+
+#: src/contacts-main-window.vala:628
+msgid "contacts.vcf"
+msgstr "kontakte.vcf"
+
+#: src/contacts-preferences-window.vala:17
+msgid "Primary Address Book"
+msgstr "Primäres Adressbuch"
+
+#: src/contacts-preferences-window.vala:18
+msgid ""
+"New contacts will be added to the selected address book. You are able to "
+"view and edit contacts from other address books."
+msgstr ""
+"Neue Kontakte werden dem gewählten Adressbuch hinzugefügt. Sie können "
+"Kontakte aus anderen Adressbüchern ansehen und bearbeiten."
+
+#: src/contacts-preferences-window.vala:27
+msgid "_Online Accounts"
+msgstr "_Online-Konten"
+
+#: src/contacts-preferences-window.vala:32
+msgid "Open the Online Accounts panel in Settings"
+msgstr "Die Online-Konten-Seitenleiste in den Einstellungen öffnen"
+
+#: src/contacts-qr-code-dialog.vala:20
+#, c-format
+msgid "Scan the QR code to save the contact <b>%s</b>."
+msgstr "Den QR-Code scannen, um den Kontakt <b>%s</b> zu speichern."
+
+#: src/contacts-unlink-operation.vala:26
+msgid "Unlinking contacts"
+msgstr "Verknüpfung von Kontakten wird aufgehoben"
+
+#: src/core/contacts-addresses-chunk.vala:17
+msgid "Postal addresses"
+msgstr "Postanschriften"
+
+#: src/core/contacts-alias-chunk.vala:33
+msgid "Alias"
+msgstr "Alias"
+
+#: src/core/contacts-avatar-chunk.vala:27
+msgid "Avatar"
+msgstr "Benutzerbild"
+
+#: src/core/contacts-contact.vala:27
+msgid "Unnamed Person"
+msgstr "Unbenannte Person"
+
+#: src/core/contacts-email-addresses-chunk.vala:13
+msgid "Email addresses"
+msgstr "E-Mail-Adressen"
+
+#: src/core/contacts-im-addresses-chunk.vala:18
+msgid "Instant Messaging addresses"
+msgstr "Instant-Messenger-Adressen"
+
+#: src/core/contacts-notes-chunk.vala:17
+msgid "Notes"
+msgstr "Notizen"
+
+#: src/core/contacts-phones-chunk.vala:17
+msgid "Phone numbers"
+msgstr "Telefonnummern"
+
+#. TRANSLATORS: This is the role of a contact in an organisation (e.g. CEO)
+#: src/core/contacts-roles-chunk.vala:19
+msgid "Roles"
+msgstr "Rollen"
+
+#. TRANSLATORS: "$ROLE at $ORGANISATION", e.g. "CEO at Linux Inc."
+#: src/core/contacts-roles-chunk.vala:119
+#, c-format
+msgid "%s at %s"
+msgstr "%s bei %s"
+
+#. TRANSLATORS: This is a field which contains a name decomposed in several
+#. parts, rather than a single freeform string for the full name
+#: src/core/contacts-structured-name-chunk.vala:41
+msgid "Structured name"
+msgstr "Strukturierter Name"
+
+#: src/core/contacts-type-descriptor.vala:71
+#: src/core/contacts-type-set.vala:221
+msgid "Other"
+msgstr "Andere"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:169 src/core/contacts-type-set.vala:190
+#: src/core/contacts-type-set.vala:216 src/core/contacts-type-set.vala:218
+msgid "Home"
+msgstr "Privat"
+
+#: src/core/contacts-type-set.vala:170 src/core/contacts-type-set.vala:191
+#: src/core/contacts-type-set.vala:210 src/core/contacts-type-set.vala:212
+msgid "Work"
+msgstr "Geschäftlich"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:189
+msgid "Personal"
+msgstr "Persönlich"
+
+#. List most specific first, always in upper case
+#: src/core/contacts-type-set.vala:209
+msgid "Assistant"
+msgstr "Assistent"
+
+#: src/core/contacts-type-set.vala:211
+msgid "Work Fax"
+msgstr "Fax (geschäftlich)"
+
+#: src/core/contacts-type-set.vala:213
+msgid "Callback"
+msgstr "Rückruf"
+
+#: src/core/contacts-type-set.vala:214
+msgid "Car"
+msgstr "Auto"
+
+#: src/core/contacts-type-set.vala:215
+msgid "Company"
+msgstr "Unternehmen"
+
+#: src/core/contacts-type-set.vala:217
+msgid "Home Fax"
+msgstr "Fax (privat)"
+
+#: src/core/contacts-type-set.vala:219
+msgid "ISDN"
+msgstr "ISDN"
+
+#: src/core/contacts-type-set.vala:220
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/core/contacts-type-set.vala:222
+msgid "Fax"
+msgstr "Fax"
+
+#: src/core/contacts-type-set.vala:223
+msgid "Pager"
+msgstr "Pager"
+
+#: src/core/contacts-type-set.vala:224
+msgid "Radio"
+msgstr "Radio"
+
+#: src/core/contacts-type-set.vala:225
+msgid "Telex"
+msgstr "Telex"
+
+#. To translators: TTY is Teletypewriter
+#: src/core/contacts-type-set.vala:227
+msgid "TTY"
+msgstr "Fernschreiber"
+
+#: src/core/contacts-urls-chunk.vala:17
+msgid "URLs"
+msgstr "Internetadressen"
+
+#: src/io/contacts-io-parse-operation.vala:29
+#, c-format
+msgid "Importing contacts from '%s'"
+msgstr "Kontakte werden aus »%s« importiert"
+
+#: src/org.gnome.Contacts.gschema.xml:6
+msgid "First-time setup done."
+msgstr "Ersteinrichtung wurde abgeschlossen."
+
+#: src/org.gnome.Contacts.gschema.xml:7
+msgid "Set to true after the user has run the first-time setup wizard."
+msgstr ""
+"Auf wahr setzen, nachdem der Benutzer den Einrichtungsassistenten ausgeführt "
+"hat."
+
+#: src/org.gnome.Contacts.gschema.xml:11
+msgid "Sort contacts on surname."
+msgstr "Kontakte nach Nachname sortieren."
+
+#: src/org.gnome.Contacts.gschema.xml:12
+msgid ""
+"If this is set to true, the list of contacts will be sorted on their "
+"surnames. Otherwise, it will be sorted on the first names of the contacts."
+msgstr ""
+"Falls auf wahr gesetzt, wird die Kontaktliste nach Nachnamen sortiert. "
+"Andernfalls wird sie nach Vornamen sortiert."
+
+#: src/org.gnome.Contacts.gschema.xml:19
+msgid "The default height of the contacts window."
+msgstr "Die voreingestellte Höhe des Kontakte-Fensters."
+
+#: src/org.gnome.Contacts.gschema.xml:20
+msgid ""
+"If the window size has not been changed by the user yet this will be used as "
+"the initial value for the height of the window."
+msgstr ""
+"Falls die Fenstergröße nicht durch den Benutzer geändert wurde, ist dies der "
+"Anfangswert für die Höhe des Fensters."
+
+#: src/org.gnome.Contacts.gschema.xml:26
+msgid "The default width of the contacts window."
+msgstr "Die voreingestellte Breite des Kontakte-Fenster."
+
+#: src/org.gnome.Contacts.gschema.xml:27
+msgid ""
+"If the window size has not been changed by the user yet this will be used as "
+"the initial value for the width of the window."
+msgstr ""
+"Falls die Fenstergröße nicht durch den Benutzer geändert wurde, ist dies der "
+"Anfangswert für die Breite des Fensters."
+
+#: src/org.gnome.Contacts.gschema.xml:32
+msgid "Is the window maximized?"
+msgstr "Ist das Fenster maximiert?"
+
+#: src/org.gnome.Contacts.gschema.xml:33 src/org.gnome.Contacts.gschema.xml:38
+msgid "Stores if the window is currently maximized."
+msgstr "Speichert, ob das Fenster derzeit maximiert ist."
+
+#: src/org.gnome.Contacts.gschema.xml:37
+msgid "Is the window fullscreen"
+msgstr "Ist das Fenster maximiert"
+
+#~ msgid "Change Addressbook"
+#~ msgstr "Adressbuch wechseln"
+
+#~ msgid "Can't import: no contacts found"
+#~ msgstr "Importieren nicht möglich: Keine Kontakte gefunden"
+
+#~ msgid "Help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Loading"
+#~ msgstr "Wird geladen"
+
+#~ msgid "Done"
+#~ msgstr "Fertig"
+
+#~ msgid "Failed to set avatar"
+#~ msgstr "Benutzerbild konnte nicht festgelegt werden"
+
+#~ msgid "Change Birthday"
+#~ msgstr "Geburtstag ändern"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "Error reading file"
+#~ msgstr "Fehler beim Lesen der Datei"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "Continue Import?"
+#~ msgstr "Mit dem Import fortfahren?"
+
+#~ msgid "C_ontinue"
+#~ msgstr "F_ortfahren"
+
+#~ msgid "Calendar event"
+#~ msgstr "Kalender-Termin"
+
+#~ msgid "Gender"
+#~ msgstr "Gender"
+
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+#~ msgid "Favourite"
+#~ msgstr "Favorit"
+
+#~ msgid "Local ID"
+#~ msgstr "Lokale Kennung"
+
+#~ msgid "Note"
+#~ msgstr "Notiz"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Web service"
+#~ msgstr "Internetdienst"
+
+#~ msgid "A contacts manager for GNOME"
+#~ msgstr "Eine Kontaktverwaltung für GNOME"
+
+#~ msgid "Back"
+#~ msgstr "Zurück"
+
+#~ msgid "More Contact Actions"
+#~ msgstr "Weitere Kontakt-Aktionen"
+
+#~ msgid "Add name"
+#~ msgstr "Name hinzufügen"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Suche"
+
+#~ msgid "Linked Accounts"
+#~ msgstr "Verknüpfte Online-Konten"
+
+#~ msgid "You can link contacts by selecting them from the contacts list"
+#~ msgstr ""
+#~ "Sie können Kontakte verknüpfen, indem Sie diese in der Kontaktliste "
+#~ "auswählen"
+
+#~ msgid "Create new contact"
+#~ msgstr "Einen neuen Kontakt anlegen"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "Select Items"
+#~ msgstr "Elemente auswählen"
+
+#~ msgid "Type to search"
+#~ msgstr "Tippen zum Suchen"
+
+#~ msgid "Set"
+#~ msgstr "Festlegen"
+
+#~ msgid "Unlink"
+#~ msgstr "Verknüpfung lösen"
+
+#~ msgid "Change Address Book"
+#~ msgstr "Adressbuch wechseln"
+
+#~ msgid "Change"
+#~ msgstr "Ändern"
+
+#~ msgid ""
+#~ "New contacts will be added to the selected address book.\n"
+#~ "You are able to view and edit contacts from other address books."
+#~ msgstr ""
+#~ "Neue Kontakte werden dem gewählten Adressbuch hinzugefügt.\n"
+#~ "Sie können Kontakte aus anderen Adressbüchern ansehen und bearbeiten."
+
+#~ msgid "No primary addressbook configured"
+#~ msgstr "Es wurde kein primäres Adressbuch eingerichtet"
+
+#~ msgid "Unable to create new contacts: %s"
+#~ msgstr "Neue Kontakte konnten nicht erstellt werden: %s"
+
+#~ msgid "Unable to find newly created contact"
+#~ msgstr "Der neu erstellte Kontakt konnte nicht gefunden werden"
+
+#~ msgid "Start a call"
+#~ msgstr "Anrufen"
+
+#~ msgid "Delete field"
+#~ msgstr "Feld löschen"
+
+#~ msgid "https://example.com"
+#~ msgstr "https://beispiel.de"
+
+#~ msgid "Change Address Book…"
+#~ msgstr "Adressbuch wechseln …"
+
+#~ msgid "Online Accounts <sup>↗</sup>"
+#~ msgstr "Online-Konten <sup>↗</sup>"
+
+#~ msgid "About GNOME Contacts"
+#~ msgstr "Info zu GNOME Kontakte"
+
+#~ msgid "Contact Management Application"
+#~ msgstr "Anwendung zur Kontaktverwaltung"
+
+# Hier wäre mehr Kontext hilfreich. Ich bin von dem Szenario ausgegangen, dass der Nutzer mit dem aufgenommenen Foto nicht zufrieden ist und ein neues aufnehmen will.
+#~ msgid "Take Another…"
+#~ msgstr "Erneut aufnehmen …"
+
+#~ msgid "Share"
+#~ msgstr "Freigeben"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Add contact"
+#~ msgstr "Kontakt hinzufügen"
+
+#~ msgid "Setup complete"
+#~ msgstr "Einrichtung abgeschlossen"
+
+#~ msgid "GNOME Contacts"
+#~ msgstr "GNOME Kontakte"
+
+#~ msgid "Unable to take photo."
+#~ msgstr "Foto konnte nicht aufgenommen werden."
+
+#~ msgid "Add number"
+#~ msgstr "Nummer hinzufügen"
+
+#~ msgid "%d contacts linked"
+#~ msgid_plural "%d contacts linked"
+#~ msgstr[0] "%d Kontakt verknüpft"
+#~ msgstr[1] "%d Kontakte verknüpft"
+
+#~ msgid "%d contact deleted"
+#~ msgid_plural "%d contacts deleted"
+#~ msgstr[0] "%d Kontakt gelöscht"
+#~ msgstr[1] "%d Kontakte gelöscht"
+
+#~ msgid "%s linked to %s"
+#~ msgstr "%s verknüpft mit %s"
+
+#~ msgid "Google Circles"
+#~ msgstr "Google-Kreise"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Home email"
+#~ msgstr "E-Mail (privat)"
+
+#~ msgid "Work email"
+#~ msgstr "E-Mail (geschäftlich)"
+
+#~ msgid "Mobile phone"
+#~ msgstr "Mobiltelefon"
+
+#~ msgid "Home phone"
+#~ msgstr "Telefon (privat)"
+
+#~ msgid "Work phone"
+#~ msgstr "Telefon (geschäftlich)"
+
+#~ msgid "Work address"
+#~ msgstr "Adresse (geschäftlich)"
+
+#~ msgid "New Detail"
+#~ msgstr "Detail hinzufügen"
+
+#~ msgid "Edit details"
+#~ msgstr "Details bearbeiten"
+
+#~ msgid "You need to enter some data"
+#~ msgstr "Sie müssen einige Informationen eingeben"
+
+#~ msgid "Unexpected internal error: created contact was not found"
+#~ msgstr ""
+#~ "Unerwarteter interner Fehler: Erstellter Kontakt wurde nicht gefunden"
+
+#~ msgid "org.gnome.Contacts"
+#~ msgstr "org.gnome.Contacts"
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "_About"
+#~ msgstr "_Info"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "%d contacts deleted"
+#~ msgstr "%d Kontakte gelöscht"
+
+#~ msgid "Contact deleted: “%s”"
+#~ msgstr "Kontakt gelöscht: »%s«"
